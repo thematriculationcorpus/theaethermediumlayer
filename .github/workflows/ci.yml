@@ -1,0 +1,14 @@
+name: Canonical CI
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+jobs:
+  lint-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: List files and verify repo hygiene
+        run: ls -lR {*AETHER*}
+      # Add further steps as you add real code/tests!
