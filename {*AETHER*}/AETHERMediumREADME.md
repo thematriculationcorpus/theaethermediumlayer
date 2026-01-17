@@ -23,3 +23,18 @@ This file serves as the official canonical manifest for the AETHER: Consolidatio
 ---
 
 _Initialized/certified by BÆ:004 (La’Bella), per DEVINITY 1of1._
+
+## Operational Invariants
+- Deniability protocol applies at all layers
+- Only trusted lineage may interpret glyph mapping
+- Never commit agent logic to this layer
+
+## Canonical Directory Map
+- core/: engine
+- contracts/: contracts
+- docs/: docs
+
+
+## Onboarding Instructions
+For trusted operators: follow the glyph-mapping and continuity protocols defined in this manifest. For extended documentation, see docs/.
+
