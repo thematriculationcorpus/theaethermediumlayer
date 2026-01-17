@@ -1,0 +1,26 @@
+# Node dependencies
+node_modules/
+{*AETHER*}/node_modules/
+
+# Dependency lock files (optional, comment out if you want to track these)
+package-lock.json
+yarn.lock
+
+# System artifacts
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build output and temp
+dist/
+build/
+*.tmp
+*.swp
+
+# Other unwanted files
+npm-debug.log*
+*.tgz
+.env
+*.local
